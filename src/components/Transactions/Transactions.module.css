@@ -1,0 +1,28 @@
+.transhistory {
+  border: 1px solid #212121;
+  border-collapse: collapse;
+}
+table {
+  border-collapse: collapse;
+  font-size: 20px;
+  margin: auto;
+}
+
+th {
+  color: #ffffff;
+  background-color: #57a7f1;
+  text-transform: uppercase;
+}
+
+td,
+th {
+  padding: 15px 100px;
+  border: 1px solid #212121;
+}
+
+tr:nth-of-type(even) {
+  background-color: #e6dddd;
+}
+td::first-letter {
+  text-transform: uppercase;
+}

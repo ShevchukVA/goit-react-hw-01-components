@@ -1,0 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+section {
+  margin-bottom: 30px;
+  text-align: center;
+}

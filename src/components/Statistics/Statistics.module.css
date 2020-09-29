@@ -1,0 +1,41 @@
+.statistic {
+  width: 400px;
+  background-color: #a3acb8;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #5d7374;
+  background-color: #fff;
+  margin: 0;
+  padding: 20px 0;
+}
+.list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(51px, 1fr));
+
+  padding: 0;
+  margin: 0;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding: 10px 18px;
+}
+.item:nth-child(even) {
+  background-color: #a32092;
+}
+.item:nth-child(odd) {
+  background-color: #2d20a3;
+}
+.label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
